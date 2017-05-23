@@ -1,3 +1,9 @@
+liblua-openssl (20170419-0) unstable; urgency=low
+
+  * Latest git upstream
+
+ -- Ard van Breemen <ard@kwaak.net>  Tue, 23 May 2017 12:36:55 +0200
+
 liblua-openssl (20151221-0) unstable; urgency=low
 
   * Add :tohex and :todec methods to bignums, and make metamethods
