@@ -150,7 +150,7 @@ $$(DESTDIR)$(3)/openssl/ssl/%.lua: $$(d)/openssl.ssl.%.lua
 	$$(MKDIR) -p $$(@D)
 	$$(CP) -p $$< $$@
 
-$$(DESTDIR)$(3)/openssl/ssl/%.lua: $$(d)/openssl.ssl.%.lua
+$$(DESTDIR)$(3)/openssl/ocsp/%.lua: $$(d)/openssl.ocsp.%.lua
 	$$(LUAC$(1)_$(d)) -p $$<
 	$$(MKDIR) -p $$(@D)
 	$$(CP) -p $$< $$@
